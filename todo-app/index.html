@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>todo-app</title>
+  </head>
+  <body>
+    
+    <section class="home">
+      <div class="app">
+          <div class="todo">
+            <h1>Task</h1>
+          </div>
+    
+          <!-- input -->
+          <div class="input-group">
+            <input type="text" id="todo-input" placeholder="Unesite novi zadatak..." autofocus required>
+    
+            <button id="add-btn"><img src="public/plus.svg" alt=""></button>
+          </div>
+    
+          <!-- lista zadataka (tasks) -->
+            <ul id="todo-list">
+              <h2 id="task-counter">Task to do: 0</h2>
+            </ul>
+        </section>
+      </div>
+
+
+
+
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
